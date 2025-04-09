@@ -1,0 +1,255 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  body {
+   
+    font-family: Roboto, Arial;
+    margin: 0;/*By default the body has margin of 8 px*/
+    padding-top: 80px;/* fixed position has the property to overlay on the content and the best way to overcome is that adding padding and background color*/
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(248, 248, 248);
+  }
+  body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode .notifications-dropdown{
+    background-color: #181818;
+    color: white;
+    border-color: #333;
+}
+
+
+.dark-mode .account-dropdown{
+    background-color: #181818;
+    color: white;
+    border-color: #333;
+}
+.dark-mode {
+    background-color: #181818;
+    color: white;
+}
+
+/* Dark Mode for Sidebar */
+.dark-mode .sidebar {
+    background-color: #202020;
+    color: white;
+}
+
+/* Dark Mode for Header */
+.dark-mode .header {
+    background-color: #202020;
+    border-color: #333;
+}
+
+/* Dark Mode for Video Titles */
+.dark-mode .video-title {
+    color: white;
+}
+
+.dark-mode .video-author{
+    color:#AAAAAA;
+}
+
+.dark-mode .video-stats{
+    color:#AAAAAA;
+} 
+
+/* Dark Mode for Sidebar Links */
+.dark-mode .sidebar-link {
+    color: white;
+}
+.dark-mode .Youtube-logo{
+    filter: invert(100%);
+}
+
+.dark-mode .sidebar-link:hover {
+    background-color: #303030;
+}
+
+/* Dark Mode for Search Bar */
+.dark-mode .search-bar {
+    background-color: #121212;
+    color: white;
+    border: 1px solid #333;
+}
+.dark-mode .hamburger-menu{
+    
+    filter: invert(100%);
+
+}
+
+.dark-mode .link-image {
+    filter: invert(100%);
+}
+.dark-mode .search-button{
+    background-color: #121212;
+    border-color:rgb(42, 41, 41);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.dark-mode .search-icon {
+   
+    filter: invert(100%);
+    border-color: #181818;
+}
+.dark-mode .voice-search-button {
+    background-color: #121212;
+}
+.dark-mode .voice-search-icon {
+    filter:invert(100%);  
+}
+
+.dark-mode .upload-icon {
+    filter: invert(100%);
+}
+.dark-mode .youtube-apps-icon {
+    filter: invert(100%);
+}
+.dark-mode .notification-icon {
+    color:white;
+    filter: invert(100%);
+}
+
+
+
+.dark-mode .search-icon{
+    filter: invert(100%);
+    
+}
+.dark-mode .voice-search-icon{
+    filter: invert(1);
+}
+.dark-mode .notifications-dropdown{
+    filter: invert(100%);
+}
+.dark-mode .video-preview{
+    background-color: #000000;
+}
+.dark-mode .video-preview:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(133, 128, 128, 0);
+  }
+
+.dark-mode .subscription-preview {
+    background: linear-gradient(145deg, #1a1a1a, #252525); /* Subtle gradient */
+    color: #e0e0e0; /* Soft white for better readability */
+    border: none;
+    box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.3), /* Deeper shadow */
+        inset 0 1px 0 rgba(255, 255, 255, 0.05); /* Inner light glow */
+    transition: transform 1s ease, box-shadow 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Gradient border effect */
+.dark-mode .subscription-preview::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 1px;
+    background: linear-gradient(45deg, #404040, #2b2b2b);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.dark-mode .subscription-preview:hover {
+    transform: translateY(-10px);
+    box-shadow: 
+        0 6px 12px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Channel name styling */
+.dark-mode .subs-channel-info h3 {
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Subscriber count styling */
+.dark-mode .subs-channel-info p:first-of-type {
+    color: #b0b0b0;
+    font-size: 0.9em;
+}
+
+/* Description text styling */
+.dark-mode .subs-channel-info p:last-of-type {
+    color: #909090;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Button enhancements */
+.dark-mode .subs-channel-actions button {
+    background: linear-gradient(145deg, #303030, #282828);
+    border: 1px solid #404040;
+    color: #e0e0e0;
+    transition: all 0.2s ease;
+}
+
+.dark-mode .subs-channel-actions button:hover {
+    background: linear-gradient(145deg, #383838, #303030);
+    border-color: #505050;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Special style for Subscribe button */
+.dark-mode .subs-channel-actions button:first-child {
+    background: linear-gradient(145deg, #007acc, #0066b3);
+    border-color: #0088ff;
+    color: #fff;
+}
+
+.dark-mode .subs-channel-actions button:first-child:hover {
+    background: linear-gradient(145deg, #0088ff, #007acc);
+}
+.dark-mode .music-playlist-preview-info h4{
+    color: #f1f1f1;
+  }
+  
+  .dark-mode .music-playlist-preview-info p{
+    color: #AAAAAA;
+  }
+  
+  .dark-mode .Music-channel{
+      background-color: #181818;
+      color: #f1f1f1;
+      border: 1px solid #333;
+  }
+  
+  .dark-mode .subscribed-button{
+    filter:invert(100%);
+    background-color: #181818;
+  }
+
+  .dark-mode .movi-type p{
+    color: #AAAAAA;
+  }
+  .dark-mode .movie-preview:hover{
+    box-shadow: 
+        0 6px 12px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  
+  }
+  .dark-mode .music-playlists:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(233, 230, 230, 0.257);
+    
+  }

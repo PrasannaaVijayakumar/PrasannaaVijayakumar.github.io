@@ -1,0 +1,69 @@
+.sidebar {
+  position: fixed;/*Position fixed keeps the content with respect to browser window
+  Position:absolute keeps the element in the page*/
+  left: 0;
+  bottom: 0; 
+  top: 54px;
+  background-color: white;
+  border-top-color:rgb(rgb(242, 236, 236), rgb(226, 226, 226), rgba(230, 230, 235, 0.901)) ;
+  width: 72px;
+  display:flex;
+  flex-direction: column;
+  z-index: 200;
+  padding:3px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+ 
+  position: fixed;
+  /*Putting position absolute in postion fixed makes the element arrange in the way with respect to the particular div but the thing is when the page is moved it is fixed
+  Putting position absolute in postion relative makes the element arrange in the way with repect to the particular to the div but the thing is when page is moved down or up it dissappears from the browser window.*/
+  height: 100%;
+    
+
+  
+}
+
+.sidebar-active {
+  transform: translateX(0);
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link img{
+  height: 25px;
+  width: 50px;
+  margin-bottom: 4px;
+  
+}
+
+.sidebar-link div {
+  font-size: 10px;
+}
+
+.link-imge{
+  filter:invert(100);
+  color: black;
+}
+@media (prefers-color-scheme: dark) {
+  .link-imge{
+    filter: invert(1); /* Inverts colors for dark mode */
+  }
+  .link-imge{
+    filter: invert(0); /* Prevents unwanted color inversion */
+  }
+}
