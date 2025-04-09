@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Supports all charactersand symbols in the website..
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive web design-->
+    <title>YouTube-Library</title>
+    <link class="icon" rel="icon" href="youtube/youtube_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Preconnecting to this website allows nme to use all fonts to from this website-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/youtube_clone.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <script src="main.js"></script>
+</head>
+<!--divs are by default: block element-->
+<style>
+/* Default Light Mode */
+
+</style>
+
+
+<body>
+   
+<header class="header">
+    <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <a href="https://www.youtube.com/" target="_blank">
+            <img class=" Youtube-logo" src="icons/youtube-logo.svg">
+        </a>
+        
+    </div>
+    
+    <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+            <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+        </button> 
+        <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+        </button>
+    </div>
+    <div class="right-section">
+        <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+        </div>
+        <div>
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+           
+        </div>
+        <div class="notifications-icon-container">
+            <img class="notification-icon" src="icons/notifications.svg">
+            <div class="notification-count">5</div>
+            <div class="notifications-dropdown">
+                <p>5 new notifications</p>
+            </div>
+        </div>
+        
+        <div class="account-container">
+            <img class="current-user-picture" src="youtube/account.jpg">
+            <div class="account-dropdown">
+                <p>Signed in as <strong>Krishna</strong></p>
+                <button>Switch Account</button>
+                <button>Sign Out</button>
+            </div>
+        </div>
+        
+</div>
+</header>
+<nav class="sidebar">
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/home.svg"/>
+      Home
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/explore.svg" >
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/library.svg">
+      <div>Library</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-imge" src="icons/favourite.svg">
+      <div>Liked Videos</div>
+    </div>
+
+    <div class="sidebar-link">
+        <img class ="link-imge" src="icons/downloads.svg">
+        <div>Downloads</div>
+      </div>
+</nav>

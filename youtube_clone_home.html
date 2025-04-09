@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Supports all charactersand symbols in the website..
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive web design-->
+    <title>YouTube</title>
+    <link class="icon" rel="icon" href="youtube/youtube_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Preconnecting to this website allows nme to use all fonts to from this website-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/youtube_clone.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<!--divs are by default: block element-->
+
+
+
+<body>
+   
+<header class="header">
+    <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <a href="https://www.youtube.com/" target="_blank">
+            <img class=" Youtube-logo" src="icons/youtube-logo.svg">
+        </a>
+        
+    </div>
+    
+    <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+            <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+        </button> 
+        <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+        </button>
+    </div>
+
+    <div class="right-section">
+        <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+        </div>
+        <div>
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+           
+        </div>
+        <div class="notifications-icon-container">
+            <img class="notification-icon" src="icons/notifications.svg">
+            <div class="notification-count">5</div>
+            <div class="notifications-dropdown">
+                <p class="noti">5 new notifications</p>
+            </div>
+        </div>
+        
+        <div class="account-container">
+            <img class="current-user-picture" src="youtube/account.jpg">
+            <div class="account-dropdown">
+                <p>Signed in as <strong>Krishna</strong></p>
+                <button>Switch Account</button>
+                <button>Sign Out</button>
+            </div>
+        </div>
+        
+</div>
+
+</header>
+
+<nav class="sidebar">
+    <div class="sidebar-link">
+        <a href="" target="_self">
+            <img class ="link-image" src="icons/home.svg"/>
+        </a>
+        <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+        <a href="youtube_clone_Explore.html" target="_self">
+      <img class ="link-image" src="icons/explore.svg" >
+    </a>
+        <div>Explore</div>
+      
+    </div>
+    <div class="sidebar-link">
+        <a href="youtube_clone_subscriptions.html" target="_self">
+      <img class ="link-image" src="icons/subscriptions.svg">
+    </a>
+        <div>Subscriptions</div>
+      
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/originals.svg">
+        <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+        <a href="youtube_clone-music.html" target="_self">
+            <img class ="link-image" src="icons/youtube-music.svg">
+        </a>
+          
+        <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/library.svg">
+        <div>Library</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-imge" src="icons/favourite.svg">
+        <div>Liked Videos</div>
+    </div>
+
+    <div class="sidebar-link">
+        <img class ="link-imge" src="icons/downloads.svg">
+            <div>Downloads</div>
+      </div>
+</nav>
+<main>
+    
+<section class="video-grid">
+         <!-- First video-->
+    <div class="video-preview">
+        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+            <a href="https://youtu.be/Q976wRoUuyQ?si=ILM8_KVR9TtXHU21" target="_self">
+    
+             <img class="thumbnail" src="youtube/kalaimane.png" >
+
+             <div class="play-button">
+                <svg class="play-icon" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+            </div>
+            </a>
+             <div class="video-time">6:06</div>
+             
+    </div><!-- 2. Vertical layout-->
+        <div class="video-info-grid">
+            <div class="channel-picture"><img src="youtube/kalaimane channel.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+            <div class="video-info"><!--2.Horizontal Layout-->
+                <p class="video-title">Kalai Maane Lyric Video - | <strong>Thaalam </strong>| Aishwarya Rai | A.R.Rahman | Hariharan | Vairamuthu</p>
+                <p class="video-author">New Music India</p>
+                <p class="video-stats">15 M views &#183; 16 yrs ago</p>
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+        <a href="https://youtu.be/WvwAx3ebEwc?si=yBB7701I-ykcm9kW" target="_self">
+    
+        <img class="thumbnail" src="youtube/oru dinam.png" >
+        <div class="play-button">
+            <svg class="play-icon" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+        </div>
+    </a>
+    <div class="video-time">4:14</div>
+</div><!-- 2. Vertical layout-->
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"> <img src="youtube/big brother.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+            <div class="video-info"><!--2.Horizontal Layout-->
+                <p class="video-title">Big Brother | Oru Dinam | Video Song | Mohanlal | Siddique | Dev</p>
+                <p class="video-author">Millenium Audios</p>
+                <p class="video-stats">4 M views &#183; 4 yrs ago</p>
+            </div>
+           
+            
+            
+        </div>
+        </div>
+
+<!-- third video-->
+    <div class="video-preview">
+        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+        <a href="https://youtu.be/U1JLtpJTe84?si=BuSFcXtW76L9Ydju" target="_self">
+    
+        <img class="thumbnail" src="youtube/vazhituniye.avif" >
+
+        <div class="play-button">
+            <svg class="play-icon" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+        </div>
+
+    </a>
+    <div class="video-time">3:51</div>
+</div>
+<!-- 2. Vertical layout-->
+        
+<div class="video-time"></div>
+        <div class="video-info-grid">
+            <div class="channel-picture">  <img src="youtube/think music.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+            <div class="video-info">     <!--2.Horizontal Layout-->       
+                <p class="video-title">Vazhithunaiye Video Song | Dragon | Pradeep Ranganathan, Kayadu | Ashwath Marimuthu | Leon James</p>
+                <p class="video-author">Think Music India</p>
+                <p class="video-stats">14M views &#183;  1 week ago</p>
+            </div>
+          
+
+        </div>
+    </div>
+
+
+    <!-- fourth video-->
+
+    <div class="video-preview">
+        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+
+     <a href="https://youtu.be/ZAkr0KFFLLs?si=RCfCnKGbQ-gzxZRb" target="_self">
+        <img class="thumbnail" src="youtube/piyu bole.png" >
+        <div class="play-button">
+            <svg class="play-icon" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+        </div>
+     </a>
+
+     <div class="video-time">4:59</div>
+    </div><!-- 2. Vertical layout-->
+   
+        
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img src="youtube/piyu.jpg" class="profile-picture"><!--1.Horizontal Layout-->
+
+            </div>
+            <div class="video-info"><!--2.Horizontal Layout-->
+                <p class="video-title">Piyu Bole | Parineeta | Saif Ali Khan & Vidya Balan | Sonu Nigam & Shreya Ghoshal</p>
+                <p class="video-author">Zee Music Company</p>
+                <p class="video-stats">50 M views &#183; 6 Years ago</p>
+
+            </div>
+            
+           
+            
+            </div>
+    </div>
+    <!-- fifth video-->
+    <div class="video-preview">
+        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+        <a href="https://youtu.be/Jn8KvdWagfo?si=tbBVv3VUJ7UBBHow" target="_self">
+    
+        <img class="thumbnail" src="youtube/apt apt.png" >
+
+        <div class="play-button">
+            <svg class="play-icon" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+        </div>
+    </a>
+    <div class="video-time">2:59</div>
+</div><!-- 2. Vertical layout-->
+<div class="video-time"></div>
+        <div class="video-info-grid">
+            <div class="channel-picture"><!--1.Horizontal Layout-->
+                <img src="youtube/rose profile.jpg" class="profile-picture">
+            </div>
+            <div class="video-info"><!--2.Horizontal Layout-->
+                <p class="video-title">ROSÉ & Bruno Mars - APT. (Official Music Video)</p>
+                <p class="video-author">ROSÉ</p>
+                <p class="video-stats">52 M views &#183; 1 month ago</p>   
+            </div>
+            
+                    
+           
+        </div>
+    </div>
+
+    <!-- sixth video-->
+    <div class="video-preview">
+        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+        <a href="https://youtu.be/bCmwCkNY85g?si=c11NLtEfU0WitZDX" target="_self">
+        <img class="thumbnail" src="youtube/cleo.png" >
+        <div class="play-button">
+            <svg class="play-icon" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+        </div>
+        </a>
+        <div class="video-time">16:48</div>
+    </div><!-- 2. Vertical layout-->
+    
+    <div class="video-info-grid">
+        <div class="channel-picture"><!--1.Horizontal Layout-->
+            <img src="youtube/cleo abram.jpg" class="profile-picture">
+        </div>
+        <div class="video-info"><!--2.Horizontal Layout-->
+    
+            <p class="video-title">What's Really Happening At CERN</p>
+            <p class="video-author">Cleo Abram</p>
+            <p class="video-stats">5.2 M views &#183; 8 months ago</p>
+
+        </div>
+          
+               
+          
+        </div>
+    </div>
+
+</div>
+<!--7 th video-->
+
+<div class="video-preview">
+    <div class="thumbnail-row"><!-- 1. Vertical layout-->
+        <a href="https://youtu.be/vfu4rBFFHwk?si=9Oc_5KEJrwoRjilo" target="_self">
+    
+            <img class="thumbnail" src="youtube/Ranjini.jpg" >
+            <div class="play-button">
+                <svg class="play-icon" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+            </div>
+            </a>
+            <div class="video-time">21:37</div>
+    </div><!-- 2. Vertical layout-->
+  
+        <div class="video-info-grid">
+            <div class="channel-picture"><img src="youtube/Sun tv.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+            <div class="video-info"><!--2.Horizontal Layout-->
+                <p class="video-title"><strong>Ranjani</strong> - Full Episode | EP - 44 | 18 Dec 2024 | Tamil Serial | Sun TV</p>
+                <p class="video-author">Sun Tv</p>
+                <p class="video-stats">15 M views &#183; 1 month ago</p>
+            </div>
+            
+            
+        </div>
+    </div>
+    <!-- 8th video-->
+
+    <div class="video-preview">
+        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+            <a href="https://youtu.be/93Y_eCwdR5k?si=r7kfT9Pp1VSNK3bY" target="_self">
+        
+                <img class="thumbnail" src="youtube/orasaadha.jpg" >
+                <div class="play-button">
+                    <svg class="play-icon" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+                </a>
+                <div class="video-time">4:16</div>
+        </div><!-- 2. Vertical layout-->
+       
+        <div class="video-info-grid">
+            <div class="channel-picture"><img src="youtube/sony music.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+            <div class="video-info"><!--2.Horizontal Layout-->
+                <p class="video-title">7UP Madras Gig - Orasaadha | Vivek - Mervin</p>
+                <p class="video-author">Sony Music South India</p>
+                <p class="video-stats">114 M views &#183; 6 yrs ago</p>
+            </div>
+            
+                
+            </div>
+        </div>
+        <!-- 9th video-->
+
+        <div class="video-preview">
+            <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                <a href="https://youtu.be/BvsfDh0XOZk?si=nmx6J1exBKCSRBeZ" target="_self">
+            
+                    <img class="thumbnail" src="youtube/Anbe vaa.jpg" >
+                    <div class="play-button">
+                        <svg class="play-icon" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </div>
+                    </a>
+                    <div class="video-time">2:23</div>
+        </div><!-- 2. Vertical layout-->
+        
+            <div class="video-info-grid">
+                <div class="channel-picture"><img src="youtube/saregama.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                <div class="video-info"><!--2.Horizontal Layout-->
+                    <p class="video-title">Naan Paarthathile Video Song - Anbe Vaa Title song TV Serial | Sun Tv Serial | Virat | Delna Davis</p>
+                    <p class="video-author">Saregama Tv Shows Tamil</p>
+                    <p class="video-stats">8 M views &#183; 5 yrs ago</p>
+                </div>
+                    
+                    
+                </div>
+            </div>
+            <!-- 10 th video-->
+        <div class="video-preview">
+            <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                <a href="https://youtu.be/meITXEnkPaA?si=0dZGNgHOYg_4clTb" target="_self">
+            
+                    <img class="thumbnail" src="youtube/local.jpg" >
+                    <div class="play-button">
+                        <svg class="play-icon" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </div>
+                    </a>
+                    <div class="video-time">3:24</div>
+            </div><!-- 2. Vertical layout-->
+            
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img src="youtube/think music.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                    <div class="video-info"><!--2.Horizontal Layout-->
+                        <p class="video-title">Mr.Local | Takkunu Takkunu Video Song | Sivakarthikeyan, Nayanthara | Hiphop Tamizha | M. Rajesh</p>
+                        <p class="video-author">Think Music India</p>
+                        <p class="video-stats">51 M views &#183; 5 yrs ago</p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+                <!-- 11th video-->
+
+                <div class="video-preview">
+                    <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                        <a href="https://youtu.be/Q-oqI8bDdpw?si=nw9afMnlyzfs-yG3" target="_self">
+                    
+                            <img class="thumbnail" src="youtube/Kandaangi.jpg" >
+                            <div class="play-button">
+                                <svg class="play-icon" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </div>
+                            </a>
+                            <div class="video-time">4:24</div>
+                    </div><!-- 2. Vertical layout-->
+                  
+                        <div class="video-info-grid">
+                            <div class="channel-picture"><img src="youtube/star.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                            <div class="video-info"><!--2.Horizontal Layout-->
+                                <p class="video-title">Kandaangi Kandaangi - 4K Video Song | Vijay | Kajal Agarwal | D Imman | Star Hits</p>
+                                <p class="video-author">Star Hits</p>
+                                <p class="video-stats">1.5 M views &#183; 7 months ago</p>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+
+                    <!-- 12 th video-->
+                    <div class="video-preview">
+                        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                            <a href="https://youtu.be/BfGMM61e7jQ?si=qVEqBaSNgt8o-8OE" target="_self">
+                        
+                                <img class="thumbnail" src="youtube/friends.avif" >
+                                <div class="play-button">
+                                    <svg class="play-icon" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                </a>
+                                <div class="video-time">4:41</div>
+                        </div><!-- 2. Vertical layout-->
+                     
+                            <div class="video-info-grid">
+                                <div class="channel-picture"><img src="youtube/audio.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                <div class="video-info"><!--2.Horizontal Layout-->
+                                    <p class="video-title">Friends Tamil Movie Songs | Vaanam Perusuthan Full Video Song 4K | Vijay | Suriya | AP International</p>
+                                    <p class="video-author">Five Star Audio</p>
+                                    <p class="video-stats">190 K Views &#183; 6 yrs ago</p>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <!--13 th video-->
+
+                        <div class="video-preview">
+                            <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                                <a href="https://youtu.be/icDTIg6YHKc?si=6JkJYkTkdQyyF4T-" target="_self">
+                            
+                                    <img class="thumbnail" src="youtube/kalaimane violin.png" >
+                                    <div class="play-button">
+                                        <svg class="play-icon" viewBox="0 0 24 24">
+                                            <path d="M8 5v14l11-7z"/>
+                                        </svg>
+                                    </div>
+                                    </a>
+                                    <div class="video-time">2:17</div>
+                            </div><!-- 2. Vertical layout-->
+                       
+                                <div class="video-info-grid">
+                                    <div class="channel-picture"><img src="youtube/violin cover.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                    <div class="video-info"><!--2.Horizontal Layout-->
+                                        <p class="video-title">Kalaimane Song Violin Cover - Thaalam Movie</p>
+                                        <p class="video-author">Aditya Latent</p>
+                                        <p class="video-stats">275 K Views &#183; 3 yrs ago</p>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <!--14 th vid-->
+    
+                            
+                            <div class="video-preview">
+                                <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                                    <a href="https://youtu.be/ZyYqyYAKGC0?si=G2nmfhk9lW797Z5p" target="_self">
+                                
+                                        <img class="thumbnail" src="youtube/einstein.avif" >
+                                        <div class="play-button">
+                                            <svg class="play-icon" viewBox="0 0 24 24">
+                                                <path d="M8 5v14l11-7z"/>
+                                            </svg>
+                                        </div>
+                                        </a>
+                                        <div class="video-time">4:34</div>
+                                </div><!-- 2. Vertical layout-->
+                              
+                                    <div class="video-info-grid">
+                                        <div class="channel-picture"><img src="youtube/nat geo.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                        <div class="video-info"><!--2.Horizontal Layout-->
+                                            <p class="video-title">Time Is But a Stubborn Illusion - Sneak Peek | Genius</p>
+                                            <p class="video-author">National Geographic</p>
+                                            <p class="video-stats">15M Views &#183; 8 yrs ago</p>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                <!-- 15 th video-->
+        
+                                
+                                <div class="video-preview">
+                                    <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                                        <a href="https://youtu.be/hPzf3CnjapU?si=XkkzvQbOR0YqWOnv" target="_self">
+                                    
+                                            <img class="thumbnail" src="youtube/kannama.avif" >
+                                            <div class="play-button">
+                                                <svg class="play-icon" viewBox="0 0 24 24">
+                                                    <path d="M8 5v14l11-7z"/>
+                                                </svg>
+                                            </div>
+                                            </a>
+                                            <div class="video-time">4:50</div>
+                                    </div><!-- 2. Vertical layout-->
+                                    <div class="video-time"></div>
+                                        <div class="video-info-grid">
+                                            <div class="channel-picture"><img src="youtube/kannama channel.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                            <div class="video-info"><!--2.Horizontal Layout-->
+                                                <p class="video-title">Kannamma Eannamma Music Video | Rio raj | Pavithralakshmi | Bala | Britto | Sam Vishal</p>
+                                                <p class="video-author">Ping Records</p>
+                                                <p class="video-stats">7.4M Views &#183; 3 yrs ago</p>
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                    </div>
+            <!-- 16 th video-->
+                                    
+                                    <div class="video-preview">
+                                        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                                            <a href="https://youtu.be/lYg2fU6VciE?si=oWTpWV9H_Do1CdIe" target="_self">
+                                        
+                                                <img class="thumbnail" src="youtube/nanban.jpg" >
+                                                <div class="play-button">
+                                                    <svg class="play-icon" viewBox="0 0 24 24">
+                                                        <path d="M8 5v14l11-7z"/>
+                                                    </svg>
+                                                </div>
+                                                </a>
+                                                <div class="video-time">4:00</div>
+                                        </div><!-- 2. Vertical layout-->
+                                        
+                                            <div class="video-info-grid">
+                                                <div class="channel-picture"><img src="youtube/gemini.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                                <div class="video-info"><!--2.Horizontal Layout-->
+                                                    <p class="video-title">En Friend Pola | Nanban</p>
+                                                    <p class="video-author">Gemini Audio</p>
+                                                    <p class="video-stats">275 K Views &#183; 3 yrs ago</p>
+                                                </div>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                        <!-- 17 th video-->
+                
+                                        
+                                        <div class="video-preview">
+                                            <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                                                <a href="https://youtu.be/qlOPl2uxKbs?si=hTQgnMUcAUkgaCAA" target="_self">
+                                            
+                                                    <img class="thumbnail" src="youtube/naanathaana.avif" >
+                                                    <div class="play-button">
+                                                        <svg class="play-icon" viewBox="0 0 24 24">
+                                                            <path d="M8 5v14l11-7z"/>
+                                                        </svg>
+                                                    </div>
+                                                    </a>
+                                                    <div class="video-time">3:51</div>
+                                            </div><!-- 2. Vertical layout-->
+                                            
+                                                <div class="video-info-grid">
+                                                    <div class="channel-picture"><img src="youtube/sony music.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                                    <div class="video-info"><!--2.Horizontal Layout-->
+                                                        <p class="video-title">Thaanaa Serndha Koottam - Naana Thaana Tamil Video | Suriya | Anirudh l Keerthi Suresh</p>
+                                                        <p class="video-author">Sony Music South EVO</p>
+                                                        <p class="video-stats">14M Views &#183; 7 yrs ago</p>
+                                                    </div>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                            <!-- 18 th video-->
+                    
+                                            
+                                            <div class="video-preview">
+                                                <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                                                    <a href="https://youtu.be/xsbLtHql4g8?si=HWLihjQLwxp2Hso9" target="_self">
+                                                
+                                                        <img class="thumbnail" src="youtube/mersal.avif" >
+                                                        <div class="play-button">
+                                                            <svg class="play-icon" viewBox="0 0 24 24">
+                                                                <path d="M8 5v14l11-7z"/>
+                                                            </svg>
+                                                        </div>
+                                                        </a>
+                                                        <div class="video-time">6:19</div>
+                                                </div><!-- 2. Vertical layout-->
+                                               
+                                                    <div class="video-info-grid">
+                                                        <div class="channel-picture"><img src="youtube/sony music.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                                        <div class="video-info"><!--2.Horizontal Layout-->
+                                                            <p class="video-title">Mersal - Aalaporan Thamizhan Tamil Video | Vijay | A.R. Rahman</p>
+                                                            <p class="video-author">Sony Music</p>
+                                                            <p class="video-stats"> 191M Views &#183; 7 yrs ago</p>
+                                                        </div>
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                        <!-- 19 th video-->
+                                                
+                                                <div class="video-preview">
+                                                    <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                                                        <a href="https://youtu.be/rtd_VveAEaI?si=CJev15P8BkeCrfUy" target="_self">
+                                                    
+                                                            <img class="thumbnail" src="youtube/veriththanam.avif" >
+                                                            <div class="play-button">
+                                                                <svg class="play-icon" viewBox="0 0 24 24">
+                                                                    <path d="M8 5v14l11-7z"/>
+                                                                </svg>
+                                                            </div>
+                                                            </a>
+                                                            <div class="video-time">4:06</div>
+                                                    </div><!-- 2. Vertical layout-->
+                                                    
+                                                        <div class="video-info-grid">
+                                                            <div class="channel-picture"><img src="youtube/sony.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                                            <div class="video-info"><!--2.Horizontal Layout-->
+                                                                <p class="video-title">Bigil - Verithanam Video | Thalapathy Vijay | @A. R. Rahman | Atlee</p>
+                                                                <p class="video-author">Sony Music South Evo</p>
+                                                                <p class="video-stats">157M Views &#183; 5 yrs ago</p>
+                                                            </div>
+                                                            
+                                                            
+                                                        </div>
+                                                    </div>
+                            <!-- 20 th video-->
+                                                    
+                                                    <div class="video-preview">
+                                                        <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                                                            <a href="https://youtu.be/pxxmrRUijSA?si=IZspBAonMgHugLsl" target="_self">
+                                                        
+                                                                <img class="thumbnail" src="youtube/wind stories.avif" >
+                                                                <div class="play-button">
+                                                                    <svg class="play-icon" viewBox="0 0 24 24">
+                                                                        <path d="M8 5v14l11-7z"/>
+                                                                    </svg>
+                                                                </div>
+                                                                </a>
+                                                                <div class="video-time">3:50</div>
+                                                        </div><!-- 2. Vertical layout-->
+                                                        
+                                                            <div class="video-info-grid">
+                                                                <div class="channel-picture"><img src="youtube/wind story.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                                                <div class="video-info"><!--2.Horizontal Layout-->
+                                                                    <p class="video-title">Nahin Saamne Tu Flute cover | Taal | Varun Kumar | 4K</p>
+                                                                    <p class="video-author">Varun Kumar Flute</p>
+                                                                    <p class="video-stats">75 K Views &#183; 3 yrs ago</p>
+                                                                </div>
+                                                                
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <!-- 21 th video-->
+                                
+                                                        
+                                                        <div class="video-preview">
+                                                            <div class="thumbnail-row"><!-- 1. Vertical layout-->
+                                                                <a href="https://youtu.be/-FOUQRybIq8?si=m9raFNZZCvoi-yTq" target="_self">
+                                                            
+                                                                    <img class="thumbnail" src="youtube/mahabharath.avif" >
+                                                                    <div class="play-button">
+                                                                        <svg class="play-icon" viewBox="0 0 24 24">
+                                                                            <path d="M8 5v14l11-7z"/>
+                                                                        </svg>
+                                                                    </div>
+                                                                    </a>
+                                                                    <div class="video-time">30:01</div>
+                                                            </div><!-- 2. Vertical layout-->
+                                                            
+                                                                <div class="video-info-grid">
+                                                                    <div class="channel-picture"><img src="youtube/vijay.jpg" class="profile-picture"></div><!--1.Horizontal Layout-->
+                                                                    <div class="video-info"><!--2.Horizontal Layout-->
+                                                                        <p class="video-title">Mahabharatham 10/09/14</p>
+                                                                        <p class="video-author">Vijay Telivision</p>
+                                                                        <p class="video-stats">8M Views &#183; 11 yrs ago</p>
+                                                                    </div>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+</section>
+
+<section class="short-grid">
+
+            <div class="short-preview">
+                <div class="short-thumbnail-row"><!-- 1. Vertical layout-->
+                    <a href="https://youtube.com/shorts/XryuGgrGqL0?si=xQK-VvrQJj7zZI5k" target="_self">
+                
+                        <img class="short-thumbnail" src="youtube/venus.avif" >
+                        </a>
+    
+                </div><!-- 2. Vertical layout-->
+                <div class="short-info-grid">
+                    <div class="short-info">
+                        <p class="video-title">The Most Likely Space To Find Alien Life</p>
+                        <p class="video-stats">5.9M Views</p>
+                    </div>
+                    <div class="vert-icon-container">
+                            <img class="short-vert-icon" src="icons/vert.svg">
+                    
+                    </div>
+    
+                </div>
+    
+            </div>
+
+            <div class="short-preview">
+                <div class="short-thumbnail-row"><!-- 1. Vertical layout-->
+                    <a href="https://youtube.com/shorts/K2eTGSJ79fU?si=Y1GUkRXyVSjkmIHv" target="_self">
+                
+                        <img class="short-thumbnail" src="youtube/vazhi.avif" >
+                        </a>
+    
+                </div><!-- 2. Vertical layout-->
+                <div class="short-info-grid">
+                    <div class="short-info">
+                        <p class="video-title">Vazhithunaiye ❤️✨ #Dragon</p>
+                        <p class="video-stats">5.9M Views</p>
+                    </div>
+                    <div class="vert-icon-container">
+                            <img class="short-vert-icon" src="icons/vert.svg">
+                    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+    
+            <div class="short-preview">
+                <div class="short-thumbnail-row"><!-- 1. Vertical layout-->
+                    <a href="https://youtube.com/shorts/WzMERN_m68E?si=sOaITwPeBuqpKIkX" target="_self">
+                
+                        <img class="short-thumbnail" src="youtube/weight.avif" >
+                        </a>
+    
+                </div><!-- 2. Vertical layout-->
+                <div class="short-info-grid">
+                    <div class="short-info">
+                        <p class="video-title">Giulia Imperio Redeemed Herself on Attempt 3! #weightlifting</p>
+                        <p class="video-stats">18M Views</p>
+                    </div>
+                    <div class="vert-icon-container">
+                            <img class="short-vert-icon" src="icons/vert.svg">
+                    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <div class="short-preview">
+                <div class="short-thumbnail-row"><!-- 1. Vertical layout-->
+                    <a href="https://youtube.com/shorts/F6Zb16HMcW4?si=xzYzmwr8n6hPNSJp" target="_self">
+                
+                        <img class="short-thumbnail" src="youtube/maths.avif" >
+                        </a>
+    
+                </div><!-- 2. Vertical layout-->
+                <div class="short-info-grid">
+                    <div class="short-info">
+                        <p class="video-title">Math Beauty #Math #Viral</p>
+                        <p class="video-stats">5.9M Views</p>
+                    </div>
+                    <div class="vert-icon-container">
+                            <img class="short-vert-icon" src="icons/vert.svg">
+                    
+                    </div>
+    
+                </div>
+    
+            </div>
+</section>
+    
+</main>
+    <script src="main.js"></script>
+</body>
+</html>

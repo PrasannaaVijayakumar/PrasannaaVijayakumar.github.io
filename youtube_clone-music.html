@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Supports all charactersand symbols in the website..
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive web design-->
+    <title>YouTube-Music</title>
+    <link class="icon" rel="icon" href="youtube/youtube_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Preconnecting to this website allows nme to use all fonts to from this website-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/youtube_clone.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <script src="main.js"></script>
+</head>
+
+
+<!--divs are by default: block element-->
+
+
+
+<body>
+   
+<header class="header">
+    <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <a href="https://www.youtube.com/" target="_blank">
+            <img class=" Youtube-logo" src="icons/youtube-logo.svg">
+        </a>
+        
+    </div>
+    
+    <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+            <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+        </button> 
+        <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+        </button>
+    </div>
+
+    <div class="right-section">
+        <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+        </div>
+        <div>
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+           
+        </div>
+        <div class="notifications-icon-container">
+            <img class="notification-icon" src="icons/notifications.svg">
+            <div class="notification-count">5</div>
+            <div class="notifications-dropdown">
+                <p class="noti">5 new notifications</p>
+            </div>
+        </div>
+        
+        <div class="account-container">
+            <img class="current-user-picture" src="youtube/account.jpg">
+            <div class="account-dropdown">
+                <p>Signed in as <strong>Krishna</strong></p>
+                <button>Switch Account</button>
+                <button>Sign Out</button>
+            </div>
+        </div>
+        
+</div>
+
+</header>
+
+<nav class="sidebar">
+    <div class="sidebar-link">
+        <a href="youtube_clone_home.html">
+            <img class ="link-image" src="icons/home.svg"/>
+        </a>
+      
+        <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+        <a href="youtube_clone_Explore.html" target="_blank">
+            <img class ="link-image" src="icons/explore.svg" >
+        </a>
+        <div>Explore</div>
+      
+    </div>
+    <div class="sidebar-link">
+        <a href="youtube_clone_subscriptions.html" target="_self">
+            <img class ="link-image" src="icons/subscriptions.svg">
+        </a>
+        <div>Subscriptions</div>
+      
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/originals.svg">
+        <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+        
+      <img class ="link-image" src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-image" src="icons/library.svg">
+        <div>Library</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-imge" src="icons/favourite.svg">
+        <div>Liked Videos</div>
+    </div>
+
+    <div class="sidebar-link">
+        <img class ="link-imge" src="icons/downloads.svg">
+            <div>Downloads</div>
+      </div>
+
+</nav>
+<main>
+    <div class="Music-channel">
+      
+            <div class="music-channel">
+                <img src="Youtube_Music/Music.jpg" alt="Music" class="music-channel-image">
+            </div>
+            <div>
+                <div class="music-channel-name">
+                    <p style="font-size: 24px;font-weight: bolder; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Music</p>
+                </div>
+                <div class="subscribers">
+                    <p style="font-size: 14px;font-weight: 400; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">123M Subscribers</p>
+                </div>
+            </div>
+    
+       
+            <div class="subscribe-button-container">
+                <button class="subscribed-button">Subscribe</button>
+            </div>
+
+
+    </div>
+    <br>
+    <section>
+    
+        <div> 
+            <div>
+                <h3 style="text-align: center;">India's Biggest Hits</h3>
+            </div>
+           
+            <div class="music-playlists">
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/Sikandar.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Bollywood Hitlist</h4>
+                            
+                        </div>
+    
+                        <div>
+                            <p>Best of the best from the latest. 'Nuff said. #hindi #music #hits</p> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/fire.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Punjab Fire</h4>                            
+                        </div>
+    
+                        <div>
+                            <p>Your one stop shop for today's biggest Punjabi hits! #punjabi #hits #top</p> 
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/hits.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>I-Pop Hits!</h4>                            
+                        </div>
+    
+                        <div>
+                            <p>Your one-stop shop for the biggest Desi Pop hits. #hindi #indianpop #hits</p> 
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/tolly.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Tollywood Hitlist</h4>
+                            
+                        </div>
+    
+                        <div>
+                            <p>Your one stop shop for today’s biggest Telugu hits! #telugu #top #hits</p> 
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/kolly wood.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Tollywood Hitlist</h4>
+                            
+                        </div>
+    
+                        <div>
+                            <p>Your one stop shop for today’s biggest Tamil hits! #tamil #top #hits</p> 
+                        </div>
+                    </div>
+    
+    
+                </div>
+                
+            </div>
+
+        
+
+                        
+        </div>
+
+        <br>
+<!--2-->
+        <div> 
+            <div>
+                <h3 style="text-align: center;">Today's Global Hits</h3>
+            </div>
+
+            <div class="music-playlists">
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/hit list.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>The Hit List</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>The home of today's biggest and hottest hits.</p> 
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/certified.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Pop Certified</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>Today's biggest and best pop songs. </p> 
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/country.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Country Hotlist</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>Your one-stop shop for today's biggest country hits.</p> 
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/chroma.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Chroma: Today's Dance Hits</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>A radiant display of recent Dance music</p> 
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/everything.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>On Everything: Today's Hip-Hop Hits</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>The hottest hip-hop tracks out now... and that's on everything.</p> 
+                        </div>
+                    </div>
+    
+    
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <br>
+<!--3-->
+        <div> 
+            <div>
+                <h3 style="text-align: center;">Discover New Musics</h3>
+            </div>
+
+            <div class="music-playlists">
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/released.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Top 100 Music Videos Global</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>YouTube Music Global Charts • Playlist Updated </p> 
+                        </div>
+                        <div>
+                            <p>View full playlist</p>
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/rah.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Top 100 Songs India</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>YouTube Music Global Charts
+                            •
+                            Playlist
+                            Updated today</p> 
+                        </div>
+
+                        <div>
+                            <p>View full playlist</p>
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/ar rahman.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Bollywood Sufi Essentials</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>Bollywood's mesmerizing ode to mystical Sufi music. #hindi #sufi #uplifting</p> 
+                        </div>
+                        <div>
+                            <p>View full playlist</p>
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/punjabi.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Trnding 20 Songs</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>YouTube Music Global Charts
+                            •
+                            Playlist
+                            Updated today</p> 
+                        </div>
+                        <div>
+                            <p>View full playlist</p>
+                        </div>
+
+                    </div>
+    
+    
+                </div>
+
+                <div class="music-playlist-preview">
+                    <div class="music-playlist-preview-thumbnail">
+                        <img class="music-playlist-preview-image"src="Youtube_Music/sikandar-1.png" alt="Sikandar" class="music-playlist-preview-image">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="music-playlist-preview-info">
+                        <div>
+                            <h4>Bollywood Hitlist</h4>
+                            
+                        </div>
+    
+                        <div>
+                           <p>Best of the best from the latest. 'Nuff said. #hindi #music #hits</p> 
+                        </div>
+                        <div>
+                            <p>View full playlist</p>
+                        </div>
+                    </div>
+    
+    
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+
+    </main>
+</body>

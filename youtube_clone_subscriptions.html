@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Supports all charactersand symbols in the website..
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive web design-->
+    <title>YouTube-Subscriptions</title>
+    <link class="icon" rel="icon" href="youtube/youtube_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Preconnecting to this website allows nme to use all fonts to from this website-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/youtube_clone.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <script src="main.js"></script>
+</head>
+<!--divs are by default: block element-->
+
+<body>
+   
+<header class="header">
+    <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <a href="https://www.youtube.com/" target="_blank">
+            <img class=" Youtube-logo" src="icons/youtube-logo.svg">
+        </a>
+        
+    </div>
+    
+    <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+            <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+        </button> 
+        <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+        </button>
+    </div>
+    <div class="right-section">
+        <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+        </div>
+        <div>
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+           
+        </div>
+        <div class="notifications-icon-container">
+            <img class="notification-icon" src="icons/notifications.svg">
+            <div class="notification-count">5</div>
+            <div class="notifications-dropdown">
+                <p>5 new notifications</p>
+            </div>
+        </div>
+        
+        <div class="account-container">
+            <img class="current-user-picture" src="youtube/account.jpg">
+            <div class="account-dropdown">
+                <p>Signed in as <strong>Krishna</strong></p>
+                <button>Switch Account</button>
+                <button>Sign Out</button>
+            </div>
+        </div>
+        
+</div>
+</header>
+
+
+<nav class="sidebar">
+    <div class="sidebar-link">
+      <a href="youtube_clone_home.html">
+      <img class ="link-image" src="icons/home.svg"/>
+    </a>
+        <div>
+        Home
+        </div>
+    </div>
+    <div class="sidebar-link">
+      <a href="youtube_clone_Explore.html">
+        <img class ="link-image" src="icons/explore.svg" >
+      </a>
+    
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <a href="youtube_clone_subscriptions.html">
+        <img class ="link-image" src="icons/subscriptions.svg">
+      </a>
+      
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+
+      <img class ="link-image" src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <a href="youtube_clone-music.html">
+        <img class ="link-image" src="icons/youtube-music.svg">
+      </a>
+      
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <a href="Youtube_clone_Library.html">
+        <img class ="link-image" src="icons/library.svg">
+      </a>
+     
+      <div>Library</div>
+    </div>
+    <div class="sidebar-link">
+      <img class ="link-imge" src="icons/favourite.svg">
+      <div>Liked Videos</div>
+    </div>
+
+    <div class="sidebar-link">
+        <img class ="link-imge" src="icons/downloads.svg">
+        <div>Downloads</div>
+      </div>
+</nav>
+
+<main>
+
+  
+  <h1 style="font-size: larger; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bolder; font-size: 36px;">All Subscriptions</h1>
+  <section class="subscriptions-grid">
+    
+    <!--first subscriptions-->
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@errormakesclever?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/EMC.jpg" alt="Error Makes Clever" title="Error Makes Clever">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>Error Makes Clever</h3>
+        </div>
+        <div>
+          <p>@ErrorMakesClever.968K Subscribers</p>
+        </div>
+       
+        <div>
+          <p>Empowering developers to level up their skills through training in software development technologies🧑‍💻 Join our community today !</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+    <!--second subscriptions-->
+
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@samsung?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/Samsung.jpg" alt="Samsung" title="Samsung India">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>Samsung</h3>
+        </div>
+        <div>
+          <p>@Samsung•7.26M subscribers</p>
+        </div>
+       
+        <div>
+          <p>Welcome to the official Samsung global channel, a place to discover the latest Samsung brand stories, events, innovative technologies, apps & services, B2B solutions, and developer community. Samsung inspires the world</p>
+        </div>
+      </div>
+      
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+    <!--third subscriptions-->
+
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@tamiltechofficial?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/Tamil Tech.jpg" alt="Tamil-Tech" title="Tamil Tech">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>
+            Tamil Tech - MrTT</h3>
+        </div>
+        <div>
+          <p>@TamilTechOfficial•4.16M subscribers</p>
+        </div>
+       
+        <div>
+          <p>Tamil Tech ~ MrTamilTech ( MrTT ) is 🌍 One of the Top Technology channels (UNBIASED⚖️) in INDIA founded by Tamil Selvan (M.Tech - IT) 💻 which Focuses on Quality 📱Tech Videos on Smartphones, Gadgets, unboxing</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@almosteverything?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/Almost everything.jpg" alt="Almost Everything" title="Almost Everything">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>Almost Everything</h3>
+        </div>
+        <div>
+          <p>@almosteverything•1.72M subscribers</p>
+        </div>
+       
+        <div>
+          <p>Watch our Channel to Learn Something New We Upload Book Summaries which can help you Improve Many Aspects of your Life and Finance Content to Help you Become Financially Smart FOR PROMOTIONS Please mail us</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@khalidalameri?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/Almeri.jpg" alt="Khalid Al Ameri" title="Khalid Al Ameri">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>Khalid Al Ameri</h3>
+        </div>
+        <div>
+          <p>@KhalidAlAmeri•5.17M subscribers</p>
+        </div>
+       
+        <div>
+          <p>الحمدلله Just a person who wants to entertain and inspire the world inshAllah 🤲❤️ Business Inquiries: hello@khalidalameri.com</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@cleoabram?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/cleo abram.jpg" alt="Cleo Abram" title="Cleo Abram">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>Cleo Abram</h3>
+        </div>
+        <div>
+          <p>@CleoAbram•5.55M subscribers</p>
+        </div>
+       
+        <div>
+          <p>Video journalist making optimistic tech explainers. Huge If True. Instagram: https://www.instagram.com/cleoabram TikTok: https://www.tiktok.com/@cleoabram Twitter: https://twitter.com/cleoabram If you'd like to sponsor a Huge If True episode, reach ou</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@unsignedmc?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/Unsigned.jpg" alt="UnSigned" title="UnSigned">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>UnSigned</h3>
+        </div>
+        <div>
+          <p>@UnsignedMC•852K subscribers</p>
+        </div>
+       
+        <div>
+          <p>🌏</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@astrokobi?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/Astro Kobi.jpg" alt="Astro Kobi" title="Astro Kobi">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>Astro Kobi</h3>
+        </div>
+        <div>
+          <p>@AstroKobi
+            •
+            2.54M subscribers</p>
+        </div>
+       
+        <div>
+          <p>Education for all.</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@europeanspaceagency?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/Eeesa.jpg" alt="European Space Agency" title="European Space Agency">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>European Space Agency</h3>
+        </div>
+        <div>
+          <p>@EuropeanSpaceAgency•1.2M subscribers</p>
+        </div>
+       
+        <div>
+          <p>Welcome to the YouTube channel of the European Space Agency - ESA. ESA is Europe's gateway to space. Its mission is to shape the development of Europe's space capability and ensure that investment in space continues to deliver benefits to the citizens of Europe and the world. SPACE exploration is a collective journey. This is w</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@errormakesclever?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/nat jeo.jpg" alt="National Geographic" title="National Geographic">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>National Geographic</h3>
+        </div>
+        <div>
+          <p>@NatGeo•24.4M subscribers</p>
+        </div>
+       
+        <div>
+          <p>Inspiring people to care about the planet! National Geographic is the world's premium destination for science, exploration, and ...</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@whatifscienceshow?feature=shared">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/What if.jpg" alt="What If" title="What If">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>What If</h3>
+        </div>
+        <div>
+          <p>@WhatIfScienceShow•8.57M subscribers</p>
+        </div>
+       
+        <div>
+          <p>An epic exploration of possibilities. What If is a Webby Award-winning science web series that takes you on a journey through ...</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+    
+    <div class="subscription-preview">
+      <div class="subs-channel-image">
+        <a href="https://youtube.com/@thesecretsoftheuniverse?si=9bqY8ktglpS5jFXc">
+          <img class="subscribed-channel-image" src="Youtube_subscriptions/sos.jpg" alt="The Secrets of the Universe
+          " title="The Secrets of the Universe
+          ">
+        </a>  
+          
+      </div>
+      <div class="subs-channel-info">
+        <div>
+          <h3>The Secrets of the Universe
+          </h3>
+        </div>
+        <div>
+          <p>@TheSecretsoftheUniverse
+            •
+            1.66M subscribers</p>
+        </div>
+       
+        <div>
+          <p>Our Universe, explained from quarks to quasars! For collaboration and promotional inquiries, contact: TheSecretsoftheUniverse@lighthouseagents.com</p>
+        </div>
+      </div>
+
+      <div class="subs-channel-actions">
+        <button class="subscribe-button">Subscribed</button>
+        <button class="notification-button">🔔</button>
+
+      </div>
+
+    </div>
+
+
+  </section>
+</main>
+</body>
